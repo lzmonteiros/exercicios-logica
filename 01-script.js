@@ -1,11 +1,10 @@
+let idade = Number(prompt("Qual é a idade do seu cachorro?"))
 
-// SQ2 - ex 9
-// Menagem Secreta: Peça ao usuário para digitar uma senha e, senha for "abracadabra", exiba uma mensagem secreta
+let idadeDeCachorro = idade * 7
+alert ("Em idade de cachorro, isso dá " + idadeDeCachorro + " anos")
 
-let senha = prompt("Digite a senha: ")
-
-if(senha == "abracadabra"){
-alert("Senha está correta, seja muito bem vindo")
+if(idadeDeCachorro >= 65){
+    alert ("Ele ja pode se aposentar")
 }else{
-    alert("Senha incorreta")
+    alert ("Não pode se aposentar ainda!")
 }

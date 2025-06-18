@@ -1,11 +1,17 @@
-// sq2 - ex 13
-// verificando votação: Peça ao usuário para inserir sua idade e verifique se ele é elegivel para votar (idade minima de 16 anos).
+let NumeroDaPalestra = Number(prompt("Digite o numero da palestra"))
 
-let idade = prompt("Digite sua idade:")
-if(idade >= 16){
-    alert("Você é elegivel para votar.")
-
-}else{
-    alert("Você não é elegivel para votar.")
-
+if (NumeroDaPalestra == 1){
+alert ("Animações dom scratch, laboratorio 305, 19h")
+}
+if(NumeroDaPalestra == 2){
+    alert ("Scratch para gamers, laboratorio 512, 20h")
+}
+if(NumeroDaPalestra == 3){
+    alert ("Javascript para leigos, laboratorio 101, 19h")
+}
+if(NumeroDaPalestra == 4){
+    alert ("Topicos avançados javascript, laboratorio 305, 20h")
+}
+if(NumeroDaPalestra == 5){
+    alert ("Vida e carreira auditorio, 21h")
 }
